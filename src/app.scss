@@ -8,6 +8,8 @@
   
   body {
     background-color: lightgray;
+    height: 300vh;
+    width: 100vw;
   }
 
   .selector-for-some-widget {
@@ -15,20 +17,20 @@
   }
 
 /* Mobile, Tablet, and Desktop Responsive Design  */
-@include media-breakpoint-up(sm) { 
-  .custom-class {
-    display: block;
-  }
-}
+// @include media-breakpoint-up(sm) { 
+//   .custom-class {
+//     display: block;
+//   }
+// }
 
-@include media-breakpoint-up(md) { 
-  .custom-class {
-    display: block;
-  }
-}
+// @include media-breakpoint-up(md) { 
+//   .custom-class {
+//     display: block;
+//   }
+// }
 
-@include media-breakpoint-up(lg) {  
-  .custom-class {
-    display: block;
-  } 
-}
+// @include media-breakpoint-up(lg) {  
+//   .custom-class {
+//     display: block;
+//   } 
+// }

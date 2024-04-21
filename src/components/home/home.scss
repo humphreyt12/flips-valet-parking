@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
-// Styling the Hero Page
-.hero {
+// Styling the Home Page
+.home {
     height: calc(100vh - 100px);
     overflow: hidden;
     position: relative;
@@ -39,4 +39,19 @@
 
     // }
 
+}
+
+.services{
+    h1{
+        
+        text-align: center;
+        color: black;
+        font-size: 80px;
+        border-top: 3px solid black ;
+
+    }
+
+    .Card{
+        display: inline-block;
+    }
 }

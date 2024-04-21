@@ -1,21 +1,25 @@
-// Importing app.css and the required sections for the app
+// Importing app.css, the components and react-router-dom dependency 
 import './app.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Hero from './components/hero/Hero';
-// import Contact from './components/Contact';
-// import About from './components/About';
-import Services from './components/services/Services';
-
+import Footer from './components/footer/Footer';
+import Home from './components/home/Home';
+import About from './components/about/About';
+// import Contact from './components/contact/Contact';
 function App() {
   return (
-    <div> 
-      <section id ="Homepage">
+    <div className="appContainer">
+        <BrowserRouter>
          <Navbar />
-         <Hero />
-      </section>
-      <section id="Services"><Services/></section>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App;

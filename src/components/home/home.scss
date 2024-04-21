@@ -39,19 +39,23 @@
 
     // }
 
-}
-
-.services{
-    h1{
-        
-        text-align: center;
-        color: black;
-        font-size: 80px;
-        border-top: 3px solid black ;
-
+    .services{
+        height: calc(100vh - 100px);
+        overflow: hidden;
+    
+    
+        h1{
+            
+            text-align: center;
+            color: black;
+            font-size: 80px;
+            border-top: 3px solid black ;
+    
+        }
+    
+        .Card{
+            display: inline-block;
+        }
     }
 
-    .Card{
-        display: inline-block;
-    }
 }

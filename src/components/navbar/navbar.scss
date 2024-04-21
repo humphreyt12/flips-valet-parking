@@ -1,27 +1,24 @@
-// Styling the Navbar
-.navbar{
-    margin-top: calc(100vh - 53px);
-    width: 100vw;
-    height: 53px;
+// // Styling the Navbar
+// .navbar{
+//     height: 100px;
 
-    .wrapper{
-        max-width: 1200px;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: transparent;
-        height: 100%;
-    }
-    span{
-        font-weight: 600;
-    }
+//     .wrapper{
+//         max-width: 1200px;
+//         margin: auto;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         background-color: transparent;
+//         height: 100%;
+   
+//         span{
+//             font-weight: 600;
+//         }
 
-    .pages{
-        width: 100vw;
-        height: 53px;
-        border: 1px solid black;
-        border-bottom: 3px solid #04c2c9;
-    }
-
-}
+//         .pages{
+//             position: relative;
+//             gap: 20px;
+//             text-align: right;
+//         }
+//     }
+// }

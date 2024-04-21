@@ -1,26 +1,20 @@
-import "./navbar.scss";
-import {motion} from "framer-motion";
-import React from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
-    return (
-        <div className="navbar">
-            <div className="wrapper">
-                {/* Animate Name */}
-                <motion.span
-                initial={{ opacity: 0, scale: 0.5 }} 
-                animate={{ opacity: 1, scale: 1 }} 
-                transition={{ duration: 0.5 }}
-                >Flips Valet Parking
-                </motion.span> 
-                <div className="pages">
-                    <a href="./about.html">About Page</a>
-                    <a href="./home.html">Home</a>
-                    <a href="./contact.html">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    )
+function TextLinkExample() {
+  return (
+    <Navbar className="bg-body-tertiary" fixed="top">
+      <Container>
+        <Navbar.Brand href="#home">Flips Valet Parking</Navbar.Brand>
+        <Nav className="justify-content-end">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar;
+export default TextLinkExample;

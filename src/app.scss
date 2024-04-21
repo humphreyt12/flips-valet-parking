@@ -5,9 +5,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  
+  html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
   body {
-    background-color: lightgray;
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
     height: 300vh;
     width: 100vw;
   }

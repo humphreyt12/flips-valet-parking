@@ -20,6 +20,15 @@ const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
                         Over 23 years, we've established long-term relationships by 
                         providing quality service for a wide range of partners.
                     </p>
+                    <br />
+                    <h2>Why Choose Us?</h2>
+                    <p>
+                        We will provide quality services, exceptional efficiency, 
+                        and the highest level of proffessionalism.
+                        No matter what service you're looking for, we guarantee 
+                        to meet and exceed your expectations and ensure your satisfication.
+                        Insurance, on-time Guarantee, Budget and Cost Friendly.
+                    </p>
                 </motion.div>   
             </div>
             <motion.div className="imageContainer" style={{y}}>

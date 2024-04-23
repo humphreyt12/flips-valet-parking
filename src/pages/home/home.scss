@@ -3,7 +3,6 @@
 // Styling the Home Page
 .home {
     height: calc(100vh - 100px);
-    overflow: hidden;
     position: relative;
 
     .textContainer{
@@ -14,6 +13,8 @@
         justify-content: center;
         gap: 40px;
         text-align: center;
+        margin-top: 40px;
+       
         
         h1{
             font-size: 68px;
@@ -28,24 +29,18 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            
         }
     }
-    // .imageContainer {
-    //     height: 100%;
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-
-    // }
 
     .services{
         height: calc(100vh - 100px);
-        overflow: hidden;
+ 
+        margin-top: 100px;
+        position: relative;
+        object-fit: cover;
     
     
         h1{
-            
             text-align: center;
             color: black;
             font-size: 80px;

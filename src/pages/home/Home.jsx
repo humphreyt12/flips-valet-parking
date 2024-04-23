@@ -4,7 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Services from "../../components/services/Services";
 
 // Import React
-// import React, { useEffect, useState } from 'react';
+// import React, { useState } from 'react';
 
 const Home = () => {
   return (
@@ -14,10 +14,9 @@ const Home = () => {
         <h1>Flips Valet Parking</h1>
         <img src="/hero.png" alt="Hero Image" />
       </div>
-      {/* <div className="imageContainer">
-               
-        </div>  */}
-    <section id="services"><Services/></section>
+      <section id="services">
+          <Services />
+        </section>
     </div>
   );
 };

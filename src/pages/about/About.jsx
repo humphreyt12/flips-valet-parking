@@ -2,6 +2,7 @@
 import {motion, useScroll, useTransform} from "framer-motion"; //Allows and controlls animation
 import React from 'react';
 import "./about.scss";
+import Navbar from "../../components/navbar/Navbar";
 
 const About = () => {
 
@@ -12,6 +13,7 @@ const About = () => {
 const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
     return(
         <div className="about">
+            <Navbar />
             <div className="wrapper">
                 <motion.div className="textContainer" style={{y}}>
                     <h2>About Our Company</h2>

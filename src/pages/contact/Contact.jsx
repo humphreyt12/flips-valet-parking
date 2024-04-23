@@ -1,5 +1,6 @@
 // The Contact Section
 import "./contact.scss";
+import Navbar from "../../components/navbar/Navbar";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -32,47 +33,33 @@ const Contact = () => {
   };
 
   return (
-    <div
-      ref={ref}
-      className="contact"
-      variants={variants}
-      initial="initial"
-      whileInView="animate"
-    >
-      <div className="textContainer" variants={variants}>
-        <h1 variants={variants}>Get in Touch</h1>
+    <div ref={ref} className="contact">
+      <Navbar />
+      <div className="textContainer" >
+        <h1>Get in Touch</h1>
         {/* Call */}
-        <div className="item" variants={variants}>
+        <div className="item" >
           <h2>Call</h2>
           <p>954-551-9979</p>
         </div>
         {/* Email */}
-        <div className="item" variants={variants}>
+        <div className="item" >
           <h2>Email</h2>
           <a target="_blank" href="mailto:humphrey14t@gmail.com">
             <span>bdajuste@gmail.com</span>
           </a>
         </div>
         {/* Instagram */}
-        <div className="item" variants={variants}>
+        <div className="item">
           <h2>Follow</h2>
-          <a
-            target="_blank"
-            href="https://www.instagram.com/flips_valet_parking/"
-          >
+          <a target="_blank" href="https://www.instagram.com/flips_valet_parking/">
             <img src="./instagram.png" alt="Instagram" />
           </a>
         </div>
       </div>
       {/* The form Section */}
       <div className="formContainer">
-        <form
-            ref={formRef}
-            onSubmit={sendEmail}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 4, duration: 1 }}
-        >
+        <form ref={formRef} onSubmit={sendEmail}>
             <input type="text" required placeholder="Name" name="name" />
             <input type="email" required placeholder="Email" name="email" />
             <input type="phone" required placeholder="Phone" name="phone" />

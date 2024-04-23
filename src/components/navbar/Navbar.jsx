@@ -4,13 +4,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function TextLinkExample() {
   return (
-    <Navbar className="bg-body-tertiary" fixed="top">
+    <Navbar className="bg-light bg-gradient" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">Flips Valet Parking</Navbar.Brand>
+        <Navbar.Brand href="/home">Flips Valet Parking</Navbar.Brand>
         <Nav className="justify-content-end">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

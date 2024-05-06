@@ -2,6 +2,7 @@
 import "./home.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Services from "../../components/services/Services";
+import  Carousel from "react-bootstrap";
 
 // Import React
 // import React, { useState } from 'react';

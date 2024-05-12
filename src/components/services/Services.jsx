@@ -16,7 +16,6 @@ const Services = () => {
       <Row xs={3} md={3} className="g-4">
         {/* Card 1 */}
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Restaurants</Card.Title>
             <Card.Text>
@@ -27,7 +26,6 @@ const Services = () => {
         </Card>
         {/* Card 2 */}
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Private and Public Events</Card.Title>
             <Card.Text>
@@ -40,7 +38,6 @@ const Services = () => {
         </Card>
         {/* Card 3 */}
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Office/Retail </Card.Title>
             <Card.Text>
@@ -51,7 +48,6 @@ const Services = () => {
         </Card>
         {/* Card 4 */}
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Hospitals </Card.Title>
             <Card.Text>
@@ -61,9 +57,64 @@ const Services = () => {
             </Card.Text>
           </Card.Body>
         </Card>
+        {/* Card 5 */}
+        <Card>
+          <Card.Body>
+            <Card.Title>Residential </Card.Title>
+            <Card.Text>
+              Experience seamless valet service right at your doorstep with our 
+              residential solutions.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        {/* Card 6 */}
+        <Card>
+         
+          <Card.Body>
+            <Card.Title>Hotels & Resorts </Card.Title>
+            <Card.Text>
+              Elevate your stay with our premier valet service, ensuring seamless 
+              convenience from arrival to departure at hotels and resorts.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        {/* Card 7 */}
+        <Card>
+
+          <Card.Body>
+            <Card.Title>Healthcare Facilities </Card.Title>
+            <Card.Text>
+              Elevate your stay with our premier valet service, ensuring seamless 
+              convenience from arrival to departure at hotels and resorts.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        {/* Card 8 */}
+        <Card>
+          <Card.Body>
+            <Card.Title>Hospitals </Card.Title>
+            <Card.Text>
+              Elevate your stay with our premier valet service, ensuring seamless 
+              convenience from arrival to departure at hotels and resorts.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        {/* Card 9 */}
+        <Card>
+          <Card.Body>
+            <Card.Title>Corporations </Card.Title>
+            <Card.Text>
+              Elevate your stay with our premier valet service, ensuring seamless 
+              convenience from arrival to departure at hotels and resorts.
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </Row>
+      <h1>And More...</h1>
     </div>
   );
 };
 
 export default Services;
+

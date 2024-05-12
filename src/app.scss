@@ -21,20 +21,34 @@
   }
 
 /* Mobile, Tablet, and Desktop Responsive Design  */
-// @include media-breakpoint-up(sm) { 
-//   .custom-class {
-//     display: block;
-//   }
-// }
 
-// @include media-breakpoint-up(md) { 
-//   .custom-class {
-//     display: block;
-//   }
-// }
+/* Extra Small Devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* CSS styles for extra small devices */
+}
 
-// @include media-breakpoint-up(lg) {  
-//   .custom-class {
-//     display: block;
-//   } 
-// }
+/* Small Devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS styles for small devices */
+}
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS styles for medium devices */
+}
+
+/* Large Devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS styles for large devices */
+}
+
+/* Extra Large Devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* CSS styles for extra large devices */
+}
+
+/* Extra Extra Large Devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* CSS styles for extra extra large devices */
+}
+

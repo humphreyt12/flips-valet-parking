@@ -1,3 +1,10 @@
+// Define SCSS variables for common breakpoints
+$breakpoint-xs: 575.98px;
+$breakpoint-sm: 767.98px;
+$breakpoint-md: 991.98px;
+$breakpoint-lg: 1199.98px;
+$breakpoint-xl: 1399.98px;
+
 .contact {
     height: 100vh;
     max-width: 1366px;
@@ -10,6 +17,18 @@
     top: 60%;
     left: 50%;
    
+    @media screen and (max-width: $breakpoint-xs) {
+        flex-direction: column; // Stack elements vertically on smaller screens
+        align-items: center; // Center horizontally
+        text-align: center; // Align text center
+        gap: 30px;
+    
+        .textContainer {
+          margin-top: 750px; // Remove top margin on smaller screens
+        }
+      }
+    
+
     .textContainer{
         flex: 1;
         display: flex;
@@ -40,8 +59,11 @@
         flex: 1;
         position: relative;
         margin-top: 300px;
-       
 
+        @media screen and (max-width: $breakpoint-xs) {
+            margin-top: 50px; // Adjust margin for smaller screens
+          }
+      
         form{
             display: flex;
             flex-direction: column;

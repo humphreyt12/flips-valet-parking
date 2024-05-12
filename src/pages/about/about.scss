@@ -21,7 +21,15 @@ $breakpoint-xl-adjusted: $breakpoint-xl + 1px;
   @media screen and (max-width: $breakpoint-xs) {
     .wrapper {
       margin: 20px;
+      flex-direction: column; // Stack text and image vertically
+      align-items: center; // Center horizontally
+      gap: 40px;
+      width: 20%;
     }
+
+    .imageContainer {
+     display: none;
+      }
   }
 
   @media screen and (min-width: $breakpoint-sm-adjusted) and (max-width: $breakpoint-md) {
@@ -52,6 +60,7 @@ $breakpoint-xl-adjusted: $breakpoint-xl + 1px;
         max-width: 1200px;
         height: 100%;
         margin: 100px;
+     
 
         .textContainer{
             height: 100%;
@@ -60,18 +69,21 @@ $breakpoint-xl-adjusted: $breakpoint-xl + 1px;
             justify-content: center;
             gap: 40px;
             width: 50%;
+       
 
             h2{
                 font-size: 24px;
                 color: white;
                 text-transform: uppercase;
                 letter-spacing: 10px;
+                
              }   
                
         }    
        
     }
     .imageContainer{
+      
         height: 75%;
         position: absolute;
         top: 0;

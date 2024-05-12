@@ -1,9 +1,52 @@
+// Define SCSS variables for common breakpoints
+$breakpoint-xs: 575.98px;
+$breakpoint-sm: 767.98px;
+$breakpoint-md: 991.98px;
+$breakpoint-lg: 1199.98px;
+$breakpoint-xl: 1399.98px;
+
+// Define adjusted breakpoints for media queries
+$breakpoint-sm-adjusted: $breakpoint-sm + 1px;
+$breakpoint-md-adjusted: $breakpoint-md + 1px;
+$breakpoint-lg-adjusted: $breakpoint-lg + 1px;
+$breakpoint-xl-adjusted: $breakpoint-xl + 1px;
 
 .about{
     height: 100%;
     background: linear-gradient(180deg, #acacb0, #4e4e50);
     position: relative;
     overflow: hidden;
+
+
+  @media screen and (max-width: $breakpoint-xs) {
+    .wrapper {
+      margin: 20px;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-sm-adjusted) and (max-width: $breakpoint-md) {
+    .wrapper {
+      margin: 40px;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-md-adjusted) and (max-width: $breakpoint-lg) {
+    .wrapper {
+      margin: 60px;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-lg-adjusted) and (max-width: $breakpoint-xl) {
+    .wrapper {
+      margin: 80px;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-xl-adjusted) {
+    .wrapper {
+      margin: 100px;
+    }
+  }
     
     .wrapper{
         max-width: 1200px;
@@ -44,3 +87,7 @@
     }
        
 }
+
+
+
+

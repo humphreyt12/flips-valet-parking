@@ -110,6 +110,7 @@ $breakpoint-xl: 1399.98px;
 
     @media screen and (max-width: $breakpoint-xs) {
         .textContainer {
+
             img {
                 width: 60%; // Adjust image width for extra small screens
             }
@@ -118,8 +119,9 @@ $breakpoint-xl: 1399.98px;
         .services {
             margin-top: 80px; // Remove top margin on smaller screens
             margin-bottom: 700px;
+    
             h1 {
-                font-size: 40px; // Adjust heading font size for extra small screens
+                font-size: 20px; // Adjust heading font size for extra small screens
             }
         }
 

@@ -25,10 +25,8 @@ const y = useTransform(scrollYProgress, [0,1], ["0%", "-300%"]);
                     <br />
                     <h2>Why Choose Us?</h2>
                     <p>
-                        We will provide quality services, exceptional efficiency, 
-                        and the highest level of proffessionalism.
-                        No matter what service you're looking for, we guarantee 
-                        to meet and exceed your expectations and ensure your satisfication.
+                        We will provide quality services, exceptional efficiency, and the highest level of proffessionalism.
+                        No matter what service you're looking for, we guarantee to meet and exceed your expectations and ensure your satisfication.
                         Insurance, on-time Guarantee, Budget and Cost Friendly.
                     </p>
                 </motion.div>   

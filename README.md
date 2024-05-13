@@ -10,11 +10,11 @@
 ## Description 
 Created a full stack react website for a valet service company, called Flips Valet Parking.
 
-![hompage](dist/homepage.png)
+![hompage](public/homepage.png)
 
-![about](dist/about.png)
+![about](public/about.png)
 
-![contact](dist/contact.png)
+![contact](public/contact.png)
 
 ## Website
 flipsvaletparking.netlify.app

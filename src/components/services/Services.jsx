@@ -84,29 +84,18 @@ const Services = () => {
           <Card.Body>
             <Card.Title>Healthcare Facilities </Card.Title>
             <Card.Text>
-              Elevate your stay with our premier valet service, ensuring seamless 
-              convenience from arrival to departure at hotels and resorts.
+              Effortless care from curb to clinic. Let us handle 
+              the parking while you focus on wellness. 
             </Card.Text>
           </Card.Body>
         </Card>
         {/* Card 8 */}
         <Card>
           <Card.Body>
-            <Card.Title>Hospitals </Card.Title>
-            <Card.Text>
-              Elevate your stay with our premier valet service, ensuring seamless 
-              convenience from arrival to departure at hotels and resorts.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        {/* Card 9 */}
-        <Card>
-          <Card.Body>
             <Card.Title>Corporations </Card.Title>
             <Card.Text>
-              Elevate your stay with our premier valet service, ensuring seamless 
-              convenience from arrival to departure at hotels and resorts.
+            Seamless parking solutions for corporate convenience. 
+            Elevate your workplace experience with our valet service.
             </Card.Text>
           </Card.Body>
         </Card>

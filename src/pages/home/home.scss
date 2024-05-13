@@ -9,130 +9,125 @@ $breakpoint-xl: 1399.98px;
 
 // Styling the Home Page
 .home {
-    height: calc(100vh - 100px);
-    position: relative;
+  height: calc(100vh - 100px);
+  position: relative;
 
-    .textContainer{
-        width:  100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 40px;
-        text-align: center;
-        margin-top: 40px;
-       
-        
-        h1{
-            font-size: 68px;
-            color: black;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        img{
-            width: 20%;
-            height: 30%;
-            object-fit: cover;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+  .textContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 40px;
+
+    h1 {
+      font-size: 68px;
+      color: black;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    img {
+      width: 20%;
+      height: 30%;
+      object-fit: cover;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    // Media queries for different screen sizes
-    @media screen and (max-width: $breakpoint-sm) {
-        .textContainer {
-            margin-top: 50px; // Remove top margin on smaller screens
-
-            img {
-                width: 40%; // Adjust image width for smaller screens
-                height: auto; // Let the height adjust proportionally
-            }
-        }
-
-        .services {
-            h1 {
-                font-size: 10px; // Adjust heading font size for smaller screens
-                margin-top: auto; // Adjust margin for smaller screens
-                margin-bottom: auto;
-            }
-        }
-    }
-
-    @media screen and (max-width: $breakpoint-xs) {
-        .textContainer {
-            margin-top: 50px; // Remove top margin on smaller screens
-            img {
-                width: 60%; // Adjust image width for extra small screens
-                margin-top: 50px; // Adjust margin for smaller screens
-            }
-        }
     .services{
-        height: calc(100vh - 100px);
- 
-        margin-top: 100px;
-        position: relative;
-        object-fit: cover;
-    
-    
-        h1{
-            text-align: center;
-            color: black;
-            font-size: 80px;
-            border-top: 3px solid black ;
-    
-        }
-    
-        .Card{
-            display: inline-block;
-        }
+        text-align: center;
+    }
+  }
 
-         // Media queries for different screen sizes
-    @media screen and (max-width: $breakpoint-sm) {
+  // Media queries for different screen sizes
+  @media screen and (max-width: $breakpoint-sm) {
+    .textContainer {
+      margin-top: 50px; // Remove top margin on smaller screens
+
+      img {
+        width: 40%; // Adjust image width for smaller screens
+        height: auto; // Let the height adjust proportionally
+      }
+    }
+
+    .services {
+      h1 {
+        font-size: 10px; // Adjust heading font size for smaller screens
+        margin-top: auto; // Adjust margin for smaller screens
+        margin-bottom: auto;
+        text-align: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-xs) {
+    .textContainer {
+      margin-top: 50px; // Remove top margin on smaller screens
+      img {
+        width: 60%; // Adjust image width for extra small screens
+        margin-top: 50px; // Adjust margin for smaller screens
+      }
+    }
+    .services {
+      height: calc(100vh - 100px);
+      text-align: center;
+      margin-top: 100px;
+      position: relative;
+      object-fit: cover;
+
+      h1 {
+        text-align: center;
+        color: black;
+        font-size: 80px;
+        border-top: 3px solid black;
+      }
+
+      .Card {
+        display: inline-block;
+      }
+
+      // Media queries for different screen sizes
+      @media screen and (max-width: $breakpoint-sm) {
         .textContainer {
-            img {
-                width: 40%; // Adjust image width for smaller screens
-                height: auto; // Let the height adjust proportionally
-            }
+          img {
+            width: 40%; // Adjust image width for smaller screens
+            height: auto; // Let the height adjust proportionally
+          }
         }
 
         .services {
-            h1 {
-                font-size: 50px; // Adjust heading font size for smaller screens
-            }
+          h1 {
+            font-size: 50px; // Adjust heading font size for smaller screens
+            text-align: center;
+          }
         }
 
         // Further reduce font size for text at the bottom for smaller screens
         p {
-            font-size: 16px;
+          font-size: 16px;
         }
-    }
+      }
 
-    @media screen and (max-width: $breakpoint-xs) {
+      @media screen and (max-width: $breakpoint-xs) {
         .textContainer {
-
-            img {
-                width: 60%; // Adjust image width for extra small screens
-            }
+          img {
+            width: 60%; // Adjust image width for extra small screens
+          }
         }
 
         .services {
-            margin-top: 80px; // Remove top margin on smaller screens
-            margin-bottom: 700px;
-    
-            h1 {
-                font-size: 20px; // Adjust heading font size for extra small screens
-            }
+          margin-top: 80px; // Remove top margin on smaller screens
+          margin-bottom: 700px;
+
+          h1 {
+            font-size: 20px; // Adjust heading font size for extra small screens
+            text-align: center;
+          }
         }
-
-        // Further reduce font size for text at the bottom for extra small screens
-        p {
-            font-size: 14px;
-        }
+      }
     }
+  }
 }
-    }
-
-}
-
-

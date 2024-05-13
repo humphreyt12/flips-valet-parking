@@ -8,6 +8,7 @@ const Services = () => {
         // Add your inline styles here
         backgroundColor: "lightgray",
         padding: "20px",
+        textAlign: "center",
     };
 
   return (
